@@ -49,6 +49,7 @@ nav.sticky {
 body {
     height: 100%;
     width: 100%;
+    /* background-image: url("./picture/desk.png"); */
     background-image: url("desk.png");
     background-size: cover;
     background-position: center;
@@ -134,3 +135,6 @@ h2.active {
     opacity: 1;
     transition: opacity 3s;
 }
+
+
+
