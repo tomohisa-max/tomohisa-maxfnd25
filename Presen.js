@@ -30,7 +30,7 @@ observer.observe(titleMessage);
 //img-wrapは偶数と奇数で出現する場所が違います。
 imagesItems.map((item, index) => {
     console.log(item, index);
-    item.children[0].style.backgroundImage = `url(./picture/${index + 1}.png)`;
+    item.children[0].style.backgroundImage = `url(${index + 1}.png)`;
     index % 2 == 0 ? (item.style.left = "55%") : (item.style.left = "5%");
     observer.observe(item);
 });
